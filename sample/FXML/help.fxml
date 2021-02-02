@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="743.0" prefWidth="600.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text fill="WHITE" layoutX="73.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR SWITCH" wrappingWidth="481.5395812988281">
+         <font>
+            <Font name="System Bold" size="61.0" />
+         </font>
+      </Text>
+      <Text fill="#e82ba3" layoutX="111.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O">
+         <font>
+            <Font name="System Bold" size="61.0" />
+         </font>
+      </Text>
+      <Text fill="#42e52c" layoutX="189.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O">
+         <font>
+            <Font name="System Bold" size="61.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="179.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOW TO PLAY" wrappingWidth="255.76663208007812">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="122.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pass through obstacles when the color of the ball matches the color of the obstacle and collect the rewards along the way." textAlignment="CENTER" wrappingWidth="377.17120361328125">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="60.0" fitWidth="63.0" layoutX="115.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/diamond.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="190.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STAR: Increases the score by 1 point" wrappingWidth="309.08690738873656">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="190.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DIAMOND: Increases the score by 2 points" wrappingWidth="309.08690738873656">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="190.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IMMUNITY: Allows the player to move through any obstacle" wrappingWidth="309.08690738873656">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="189.0" layoutY="562.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COLOR SWITCHER: Changes the color of the ball" wrappingWidth="309.08690738873656">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#f52393" layoutX="134.0" layoutY="639.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#36e52a" layoutX="324.0" layoutY="640.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="169.0" layoutY="638.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pause Game">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="357.0" layoutY="638.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unpause Game">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="216.0" layoutY="680.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="172.0" style="-fx-background-color: blueviolet;" text="MAIN MENU" textFill="WHITE" onAction="#MainMenu">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Arc fill="DODGERBLUE" layoutX="147.0" layoutY="569.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fill="#ffef1f" layoutX="147.0" layoutY="569.0" length="90.0" radiusX="20.0" radiusY="20.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fill="#7b0dc5" layoutX="148.0" layoutY="568.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="270.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fill="#ff1f94" layoutX="148.0" layoutY="569.0" length="90.0" radiusX="20.0" radiusY="20.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Button layoutX="129.0" layoutY="327.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="41.0" style="-fx-shape: &quot;M 8 0 L 11 0 L 12 -3 L 13 0 L 16 0 C 16 0 14 2 14 2 C 14 2 15 5 15 5 L 12 3 T 9 5 C 10 2 10 2 10 2&quot;; -fx-background-color: white;" />
+      <SVGPath content="M 480 150 Q 500 150 500 120 Q 500 150 520 150 Q 500 150 500 180 Q 500 150 480 150 " fill="GOLD" layoutX="-355.0" layoutY="340.0" />
+   </children>
+</AnchorPane>

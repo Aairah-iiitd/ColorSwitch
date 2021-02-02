@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:controller="sample.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="743.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="WHITE" layoutX="171.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SWITCH">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="185.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Text>
+      <Text fill="#eb1071" layoutX="236.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="288.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="L">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Text>
+      <Text fill="#4cff5b" layoutX="324.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="376.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="130.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHOOSE GAME TO RELOAD" wrappingWidth="348.37548828125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <ListView id="list" layoutX="148.0" layoutY="270.0" prefHeight="331.0" prefWidth="312.0" />
+      <SVGPath content="M 300 150 Q 275 150 275 175 Q 275 175 250 175 Q 250 125 300 125 Z" fill="#c91717" layoutX="-216.0" layoutY="-67.0" />
+      <SVGPath content="M 300 150 Q 275 150 275 175 Q 275 175 250 175 Q 250 125 300 125 Z" fill="#eedd42" layoutX="-166.0" layoutY="-67.0" rotate="90.0" />
+      <SVGPath content="M 300 150 Q 275 150 275 175 Q 275 175 250 175 Q 250 125 300 125 Z" fill="#eb3c99" layoutX="-166.0" layoutY="-17.0" rotate="180.0" />
+      <SVGPath content="M 300 150 Q 275 150 275 175 Q 275 175 250 175 Q 250 125 300 125 Z" fill="#279af2" layoutX="-216.0" layoutY="-17.0" rotate="270.0" />
+      <SVGPath content="M 300 150 Q 275 150 275 175 Q 275 175 250 175 Q 250 125 300 125 Z" fill="#c91717" layoutX="219.0" layoutY="-17.0" rotate="270.0" />
+      <SVGPath content="M 300 150 Q 275 150 275 175 Q 275 175 250 175 Q 250 125 300 125 Z" fill="#eedd42" layoutX="219.0" layoutY="-67.0" />
+      <SVGPath content="M 300 150 Q 275 150 275 175 Q 275 175 250 175 Q 250 125 300 125 Z" fill="#eb3c99" layoutX="269.0" layoutY="-67.0" rotate="90.0" />
+      <SVGPath content="M 300 150 Q 275 150 275 175 Q 275 175 250 175 Q 250 125 300 125 Z" fill="#279af2" layoutX="269.0" layoutY="-17.0" rotate="180.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="70.0" layoutX="-3.0" layoutY="643.0" stroke="BLACK" strokeType="INSIDE" width="607.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#2424d0" />
+                  <Stop color="#ee11c9" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Button id="start" layoutX="207.0" layoutY="639.0" mnemonicParsing="false" style="-fx-background-color: none;" text="MAIN" textFill="WHITE" onAction="#MainMenu">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
