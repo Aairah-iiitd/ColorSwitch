@@ -1,2 +1,2 @@
 # ColorSwitch
-Desktop version of the classic COlor Switch game implemented using JavaFX.
+Desktop version of the classic Color Switch game implemented using JavaFX.
